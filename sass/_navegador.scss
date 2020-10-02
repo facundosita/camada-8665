@@ -1,0 +1,32 @@
+.navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .navegador__imgLogo {
+        padding-left: 2.5rem;
+        /*padding-top: 20px;*/
+        height: 50px;
+        width: 50px;
+    }
+
+    .navegador__menu {
+        padding-right: 2.5rem;
+
+        .navegador__menuItem {
+            color: white;
+            font-weight: 500;
+            font-size: 1.5rem;
+            text-align: right;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 10px;
+
+            .navegador__menuLink {
+            color: white;
+            text-decoration: none;
+            }
+        }   
+    }
+}
